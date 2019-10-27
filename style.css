@@ -15,6 +15,16 @@ nav.nav-transparente{
 	background: rgba(0,0,0,0.6);
 }
 
+#conteudo{
+	background: #efefef;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.albuns{
+	padding: 10px 0;
+}
+
 .navbar-light .navbar-nav .nav-link{
 	color: #fff;
 }
@@ -53,6 +63,7 @@ nav.nav-transparente{
 	text-transform: uppercase;
 	transition: 0.4s, color 0.4s;
 	padding: 10px 20px;
+	margin:5px 10px;
 }
 
 .btn-branco{
