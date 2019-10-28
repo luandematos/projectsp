@@ -158,6 +158,28 @@ h3{
 	-webkit-transform:rotate(30deg);
 }
 
+.circle-icon{
+	background: #222326;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	vertical-align: middle;
+	border-radius: 50%;
+	color: #fff;
+	margin:20px 5px;
+	float: right;
+
+}
+
+.icons-custom a{
+	text-decoration-style: none;
+}
+
+.icons-custom i:hover{
+	color: #7c25f8;
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 	h1{
