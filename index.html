@@ -56,17 +56,36 @@
             </div><!--Fim container-->
           </nav><!--Fim barra de navegação-->
         </header><!--Fim cabeçalho-->
+
         <section id="home" class="d-flex"><!--Inicio seção capa, titulo e botões principais-->
           <div class="container align-self-center ">
             <div class="row">
               <div class="col-md-12 titulo">
-                <h1>Música para todos</h1>
-                <a href="" class="btn btn-lg btn-custom btn-purple">Aproveite o Spotify free</a>
-                <a href="" class="btn btn-lg btn-custom btn-branco">Obter Spotify premium</a>
+                <div id="carousel-sp" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner"><!--Carousel inner-->
+                    <div class="carousel-item active">
+                      <h1>Música para todos</h1>
+                      <a href="" class="btn btn-lg btn-custom btn-purple">Aproveite o Spotify free</a>
+                      <a href="" class="btn btn-lg btn-custom btn-branco">Obter Spotify premium</a>
+                    </div>
+                    <div class="carousel-item">
+                      <h1>As melhores rádios</h1>
+                      <a href="" class="btn btn-lg btn-custom btn-branco"><i class="fas fa-music"></i> Ouça agora</a>
+                    </div>
+                  </div><!--Fim carousel inner-->
+                  <!--Controls of carousel-->
+                  <a href="#carousel-sp" class="carousel-control-prev" data-slide="prev">
+                    <i class="fas fa-angle-left fa-2x"></i>
+                  </a>
+                  <a href="#carousel-sp" class="carousel-control-next" data-slide="next">
+                    <i class="fas fa-angle-right fa-2x"></i>
+                  </a>  
+                </div>
               </div>
             </div>
           </div>
         </section><!--Fim seção capa-->
+
         <section id="services" class="spaces"><!--Inicio seção serviços-->
           <div class="container"><!--Inicio container serviços--> 
             <div class="row"><!--Inicio row para grid imagens e textos-->
@@ -105,6 +124,7 @@
         </div>
       </div>
     </section><!--Fim seção serviços-->
+
     <section id="recursos" class="spaces"><!--Inicio seção recursos-->
       <div class="container"><!--Inicio container recursos-->
         <div class="row">
@@ -136,6 +156,7 @@
         </div>
       </div>
     </section>
+
     <footer class="spaces">
       <div class="container">
         <div class="row">
